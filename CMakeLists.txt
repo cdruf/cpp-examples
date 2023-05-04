@@ -11,3 +11,4 @@ link_directories(${BOOST_DIR}/stage/lib)
 
 
 add_executable(boost_example boost_example.cpp)
+add_executable(my_bellman_ford my_bellman_ford.cpp MyWeightedDiGraph.h)
